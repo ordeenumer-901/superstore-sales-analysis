@@ -49,37 +49,6 @@ superstore-sales-analysis/
 
 ---
 
-## 🚀 How to Run
-
-**1. Install dependencies**
-```bash
-pip install pandas openpyxl
-```
-
-**2. Run the analysis**
-```bash
-python analysis.py
-```
-
-This will:
-- Load and explore the dataset
-- Create a SQLite database (`data/superstore.db`)
-- Run 5 SQL queries against it
-- Export results to `visuals/results.json`
-
-**3. View the dashboard**
-
-Open `visuals/dashboard.html` in any browser. No server needed.
-
-**4. Explore the SQL queries**
-
-Open `sql/queries.sql` in any SQL editor or run against the generated `.db` file using:
-```bash
-sqlite3 data/superstore.db < sql/queries.sql
-```
-
----
-
 ## 💡 Key Insights & Recommendations
 
 ### 1. Push growth in the Central Region
@@ -119,13 +88,5 @@ Open `visuals/dashboard.html` in your browser to see:
 
 ---
 
-## 📝 What I Learned / Would Do Next
-
-- **Add time-series forecasting** using Prophet or statsmodels to project 2018 revenue
-- **Customer segmentation** using K-means clustering on RFM (Recency, Frequency, Monetary) values
-- **Automate the pipeline** with a scheduled Python script that re-runs when new data arrives
-- **Deploy the dashboard** to GitHub Pages so it's publicly accessible without downloading
-
----
 
 *Built as a portfolio project to demonstrate SQL, Python, and business communication skills.*
