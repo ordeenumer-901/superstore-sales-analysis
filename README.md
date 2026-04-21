@@ -67,7 +67,7 @@ Revenue dipped from 2016 to 2017, but margin improved to 52.2%. This isn't neces
 
 ## 📊 Dashboard Preview
 
-Open `visuals/dashboard.html` in your browser to see:
+Open `https://ordeenumer-901.github.io/superstore-sales-analysis/dashboard.html` in your browser to see:
 - KPI summary cards (Total Revenue, Profit, Orders, Data Flag)
 - Year-over-year revenue & profit trend with margin overlay
 - Profit by product sub-category (horizontal bar)
