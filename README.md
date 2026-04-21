@@ -1,6 +1,7 @@
 # 📊 Superstore Sales Analysis
 
 **Tools:** Python · pandas · SQLite · SQL · Chart.js  
+**Live Dashboard:** [View Dashboard](https://ordeenumer-901.github.io/superstore-sales-analysis/dashboard.html)
 **Data:** 8,547 orders · 2014–2017 · 4 regions · 3 product categories  
 **Goal:** Answer 5 business questions that drive real decisions
 
